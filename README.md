@@ -14,7 +14,7 @@ This project is an exercise in using Canvas to randomly generate animated circle
 
 * You do not need to run a server to view this document.
 * No additional code is necessary to view this project.
-* *WARNING*: Currently the animation is initiated by an infinite loop. This may cause some systems to crash!!!! If you are concerned about this possibility, please just enjoy the gif I've placed above in this README file. If you would still like to run this on your computer, please do so at your own risk by following the steps below.
+* *WARNING*: Currently the animation is initiated by an infinite loop. This may cause problems on some systems!!!! If you are concerned about this possibility, please just enjoy the gif I've placed above in this README file. If you would still like to run this on your computer, please do so at your own risk by following the steps below.
 * To clone: 
 1. Copy the link from GitHub using the `Code` button
 2. Open a code editor (vs code, atom, etc.)
@@ -24,8 +24,8 @@ This project is an exercise in using Canvas to randomly generate animated circle
 6. Open the project by typing `code .` and hitting enter.
 7. Right click on the index.html file and select `open with live browser`.
 8. Open the canvas.js file, scroll to the very bottom and delete the `//` from the the line `// animate();`. This will start the animation.
-9. *WARNING*: Deleting the `//` will initiate the infinite loop that is currently responsible for creating the animation. This may cause some systems to crash!!!! 
-. _Enjoy_!
+9. *WARNING*: Deleting the `//` will initiate the infinite loop that is currently responsible for creating the animation. This may cause problems on some systems!!!! 
+10. _Enjoy_!
 
 ## Known Bugs / Issues
 
