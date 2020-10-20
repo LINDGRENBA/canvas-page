@@ -42,6 +42,7 @@ function Circle(x, y, dx, dy, radius, red, green, blue){
     c.arc(this.x, this.y, this.radius, 0, Math.PI*2, false);
     c.strokeStyle = 'rgb(' + this.red + ',' + this.green + ',' + this.blue + ')';
     c.stroke();
+    c.fillStyle = 'rgb(' + this.red + ',' + this.green + ',' + this.blue + ')';
     c.fill();
   },
   //UPDATE
@@ -56,7 +57,6 @@ function Circle(x, y, dx, dy, radius, red, green, blue){
     this.y += this.dy; //y velocity is 4px
 
     this.draw(); //calling the draw function here
-    console.log('blurp');
   }
 }
 
@@ -65,7 +65,7 @@ function Circle(x, y, dx, dy, radius, red, green, blue){
 let circleArray = [];
 
 for(let i = 0; i < 50; i++){
-  let radius = 30;
+  let radius = 10;
   let x = Math.floor(Math.random() * (innerWidth - radius * 2) + radius);
   var dx = (Math.random() - 0.5) * 5;
   let y = Math.floor(Math.random() * (innerHeight - radius * 2) + radius);
